@@ -2,10 +2,10 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide: null
+user-guide: Adobe Experience Manager Document Security
 ---
 
-# Table of Contents {#table-of-contents}
+# Table of Contents {#using}
 
 + [Introduction to AEM Document Security Extension for Microsoft Office](document-security-extension-microsoft-office.md)
 + [Download Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft Office](download-installer.md)
