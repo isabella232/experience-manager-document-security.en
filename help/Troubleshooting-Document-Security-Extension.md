@@ -3,12 +3,12 @@ title: Troubleshooting AEM Document Security Extension for Microsoft Office
 seo-title: Troubleshooting AEM Document Security Extension for Microsoft Office
 description: If you have problems installing, configuring, or using the AEM Document Security Extension for Microsoft Office, follow the instructions listed in this document.
 seo-description: If you have problems installing, configuring, or using the AEM Document Security Extension for Microsoft Office, follow the instructions listed in this document.
-uuid: 3e154d6f-42e3-4555-969d-2643d7860117
+uuid: 61001ca8-a25a-4879-98ac-563a6eb126e7
 contentOwner: khsingh
 content-type: reference
 geptopics: SG_AEMFORMS/categories/document_security
 topic-tags: using
-discoiquuid: 4a6b7916-abc2-4ffe-88a2-41773364c8f1
+discoiquuid: bdc3f174-e417-4d3e-b3af-972cdcc10133
 index: y
 internal: n
 snippet: y

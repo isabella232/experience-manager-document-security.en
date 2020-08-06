@@ -3,9 +3,9 @@ title: Using AEM Document Security Extension for Microsoft Office
 seo-title: Using AEM Document Security Extension for Microsoft Office
 description: null
 seo-description: null
-uuid: e3e7d8e8-fb04-4fb2-876b-d11b5644e4c2
+uuid: 8d98a355-df25-4d8e-ae76-a63a93f280c4
 contentOwner: dhv
-discoiquuid: 44508c07-70e5-47dc-b1d0-57bfed45f840
+discoiquuid: df6ca960-ccfb-411a-b61d-d52bce0725a7
 index: y
 internal: n
 snippet: y
