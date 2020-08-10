@@ -3,11 +3,11 @@ title: Introduction to AEM Document Security Extension for Microsoft Office
 seo-title: Introduction to AEM Document Security Extension for Microsoft Office
 description: Using document Security Extension for Microsoft Office, you can apply predefined confidentiality settings to your Microsoft Office files. 
 seo-description: Using document Security Extension for Microsoft Office, you can apply predefined confidentiality settings to your Microsoft Office files. 
-uuid: 33861335-6cd3-46c0-aa91-c4205f96c29e
+uuid: a5428c50-fae3-4823-9e6f-0f5306e7248f
 content-type: reference
 topic-tags: using
 geptopics: SG_AEMFORMS/categories/document_security
-discoiquuid: 88deaebc-ee87-4b45-badd-dcbef3c39e83
+discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
 index: y
 internal: n
 snippet: y

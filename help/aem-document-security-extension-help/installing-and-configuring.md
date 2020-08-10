@@ -3,9 +3,9 @@ title: Installing and configuring
 seo-title: Installing and configuring
 description: null
 seo-description: null
-uuid: e0415502-9eb3-4edc-82ed-d2394c6c1e13
+uuid: 799702ab-019b-4d5f-bdb5-71df3ec88b8b
 contentOwner: dhv
-discoiquuid: 611f8911-d4bd-4a64-91c7-3f69e37ffecd
+discoiquuid: 3a13781d-02c4-404b-893a-6cd094a0295b
 index: y
 internal: n
 snippet: y
@@ -15,7 +15,7 @@ snippet: y
 
 >[!NOTE]
 >
->### [AEM Document Security for Microsoft Office - Release Notes](/document-security-extension-release-notes.md) {#aem-document-security-for-microsoft-office-release-notes}
+>### [AEM Document Security for Microsoft Office - Release Notes](../document-security-extension-release-notes.md) {#aem-document-security-for-microsoft-office-release-notes}
 >
 >Read the release notes before you install AEM Document Security 6.2 Extension for Microsoft Office.
 

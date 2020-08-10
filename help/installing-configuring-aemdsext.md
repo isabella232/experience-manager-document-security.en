@@ -3,11 +3,11 @@ title: Installing and Configuring AEM Document Security Extension for Microsoft 
 seo-title: Installing and Configuring AEM Document Security Extension for Microsoft Office
 description: This document guides you through installing and configuring Adobe Experience Manager Document Security Extension 6.2 for Microsoft Office.
 seo-description: This document guides you through installing and configuring Adobe Experience Manager Document Security Extension 6.2 for Microsoft Office.
-uuid: db03bac6-2b1d-473a-8ba6-c23284c0490c
+uuid: 9d7eb6bb-4780-4d82-8657-7c6c6d523af0
 content-type: reference
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/document_security
-discoiquuid: c48fd2a9-dbeb-4ae7-94c9-580572988c4f
+discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ This document includes information about the following tasks:
 
 Before you install Document Security Extension for Microsoft Office, ensure that:
 
-* You have read the [Release Notes](/document-security-extension-release-notes.md).
+* You have read the [Release Notes](document-security-extension-release-notes.md).
 * Microsoft Office is activated. Activation dialog does not appear on opening Microsoft Office applications.
 * Latest service packs for Microsoft Windows and Microsoft Office are installed.  
 * If you are installing Document Security for Microsoft Office for an unsupported language, open the Office application at least once.

@@ -3,11 +3,11 @@ title: Using AEM Document Security Extension for Microsoft Office
 seo-title: Using AEM Document Security Extension for Microsoft Office
 description: You can control how recipients use your policy-protected files, no matter how widely you distribute them. The document explains how to protect files and how to work with protected files.
 seo-description: You can control how recipients use your policy-protected files, no matter how widely you distribute them. The document explains how to protect files and how to work with protected files.
-uuid: 67114012-3e3a-4e96-b51e-bd36936109ae
+uuid: db4abbc8-eb21-4f4a-9950-224ada95ce66
 content-type: reference
 topic-tags: using
 geptopics: SG_AEMFORMS/categories/document_security
-discoiquuid: 4ccb0b9f-0d53-46f6-bb85-7a98fa188f31
+discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 index: y
 internal: n
 snippet: y
