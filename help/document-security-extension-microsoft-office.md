@@ -70,19 +70,19 @@ While working with the successful bidder, the manufacturer’s engineers change 
 
 The resources in this table can help you learn more about AEM Document Security: 
 
-<table cellpadding="4" cellspacing="0"> 
+<table > 
  <tbody>
   <tr>
-   <th class="cellrowborder" valign="top" width="NaN%"><p>For information about</p> </th> 
-   <th class="cellrowborder" valign="top" width="NaN%"><p>See</p> </th> 
+   <th><p>For information about</p> </th> 
+   <th><p>See</p> </th> 
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e326 " valign="top" width="NaN%"><p>AEM forms Administrator Help</p> </td> 
-   <td class="cellrowborder" headers="d19e329 " valign="top" width="NaN%"><p><a data-disable-query="false" href="http://www.adobe.com/go/learn_aemforms_admin_65">Administrator Help</a> or, on the Document Security administration pages, click the Help link in the upper-right corner of a page.</p> </td> 
+   <td><p>AEM forms Administrator Help</p> </td> 
+   <td><p><a href="http://www.adobe.com/go/learn_aemforms_admin_65">Administrator Help</a> or, on the Document Security administration pages, click the Help link in the upper-right corner of a page.</p> </td> 
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e326 " valign="top" width="NaN%"><p>Patch updates, technical notes, and additional information about this product version</p> </td> 
-   <td class="cellrowborder" headers="d19e329 " valign="top" width="NaN%"><p><a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Marketing Cloud Technical Support</a></p> </td> 
+   <td><p>Patch updates, technical notes, and additional information about this product version</p> </td> 
+   <td><p><a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Marketing Cloud Technical Support</a></p> </td> 
   </tr>
  </tbody>
 </table>

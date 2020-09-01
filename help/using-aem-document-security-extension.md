@@ -52,7 +52,7 @@ If you are required to access the Document Security web pages through certificat
 
 #### Configure connection settings {#configure-connection-settings}
 
-1. In Document Security Extension for Microsoft Office 2010 and Office 2013, on the **Document Security **tab, select **Choose Server**.
+1. In Document Security Extension for Microsoft Office 2010 and Office 2013, on the **Document Security** tab, select **Choose Server**.
 1. Either click **New** to create new connection settings, or select an existing connection and click **Edit**.
 1. Type a name for the connection in the **Name** box. You can use any name.
 1. Type the address of the server in the **Server Address** box.
@@ -82,7 +82,7 @@ If you are required to access the Document Security web pages through certificat
 
 1. Do the following:
 
-    * In Document Security Extension for Microsoft Office 2010 and Office 2013 on the **Document Security **tab, select **Choose Server**.
+    * In Document Security Extension for Microsoft Office 2010 and Office 2013 on the **Document Security** tab, select **Choose Server**.
 
 1. Select a server to specify as the default and click **Set Default**. A star appears next to the default server.
 
@@ -337,7 +337,7 @@ After you apply a policy, it is added to the Recently Used list on the AEM Docum
 
 #### Apply a policy {#apply-a-policy}
 
-1. In Document Security Extension for Microsoft Office 2010 and 2013 on the **Document Security **tab, select **Secure &gt; Choose Policy**.
+1. In Document Security Extension for Microsoft Office 2010 and 2013 on the **Document Security** tab, select **Secure &gt; Choose Policy**.
 
    If you chose user name and password as the authentication method on the server and have not yet provided login information for Document Security, a dialog box prompts for your user name and password.
 
@@ -346,7 +346,7 @@ After you apply a policy, it is added to the Recently Used list on the AEM Docum
 
 #### Apply a recently-used policy {#apply-a-recently-used-policy}
 
-1. In Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security **tab, select **Secure &gt; ***[Policy Name]*.
+1. In Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security** tab, select **Secure &gt; ***[Policy Name]*.
 1. Save the file.
 
 ## Work with the Policy-Protected Files {#usingaemdocumentsecurityextensionpolicyprotectedfiles}
@@ -387,7 +387,7 @@ The user experience when opening protected files depends on the mutual authentic
 
 If you are permitted, you can remove policy protection from files that you have protected. If you do so, the file is no longer protected by Document Security.
 
-1. In Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security **tab, select **Remove**.
+1. In Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security** tab, select **Remove**.
 
    If you have not yet provided login information for Document Security, a dialog box prompts for your user name and password.
 
@@ -421,7 +421,7 @@ Policies can allow you to open files while you are offline and not connected to 
 
 Do the following:
 
-* In Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security **tab, select **Synchronize Off-line**.
+* In Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security** tab, select **Synchronize Off-line**.
 
   ***note**: The Synchronize Off-Line button is available even though the user does not have offline permission for the document. However, selecting the button does nothing. *
 
@@ -482,7 +482,7 @@ Document Security Extension for Microsoft Office provides support for these wate
 
 You can open the Document Security web pages to create and update your user policies and to view status and audit information about your policy-protected files. You can also use the Document Security web pages to change policies or revoke access for a policy-protected file.
 
-To open the Document Security web pages, in Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security **tab, select **Create and Manage Policies**. If you have not yet provided login information, the browser opens to the server login page.
+To open the Document Security web pages, in Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security** tab, select **Create and Manage Policies**. If you have not yet provided login information, the browser opens to the server login page.
 
 ### Changing policies {#changing-policies}
 
@@ -492,7 +492,7 @@ To change the settings for a policy, use the Document Security web pages.
 
 1. Do the following:
 
-    * In Document Security Extension for Microsoft Office 2010 or 2013, on the **Document Security **tab, select **Secure &gt; Change Security**.
+    * In Document Security Extension for Microsoft Office 2010 or 2013, on the **Document Security** tab, select **Secure &gt; Change Security**.
 
 1. Select a policy from the list and click **Apply**.
 
@@ -502,7 +502,7 @@ You can revoke the ability to open files that you protected. When you revoke acc
 
 1. Do the following:
 
-    * In Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security **tab, select **Revoke**.
+    * In Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security** tab, select **Revoke**.
 
    The Document Security web pages open to the Revoke Documents page.
 
@@ -538,7 +538,7 @@ Audited events for Word, Excel, and PowerPoint files include these:
 
 ### View the audit history for a file {#view-the-audit-history-for-a-file}
 
-In Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security **tab, select **Audit History**.
+In Document Security Extension for Microsoft Office 2010 and 2013, on the **Document Security** tab, select **Audit History**.
 
 The Document Security web pages open to the Events page, which displays audited events for the current file.
 
@@ -781,4 +781,4 @@ For detailed steps to configure extended authentication workflows, see the [Exte
 
 ## Glossary {#glossary}
 
-For information about LiveCycle and AEM forms on JEE terminology, see [Glossary](http://help.adobe.com/en_US/AEMForms/6.1/DesignerHelp/).
+For information about LiveCycle and AEM forms on JEE terminology, see [Glossary](http://www.adobe.com/go/learn_aemforms_designer_65).
