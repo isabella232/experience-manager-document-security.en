@@ -297,35 +297,35 @@ A user can attempt to open the protected document on a machine which does not ha
 
 The CommonResources.dll file contains information about the resource templates. It contains two name identifiers TEMPLATE_FILE and RT_MANIFEST. To enable a custom cover page, the TEMPLATE_FILE name identifier is modified. The TEMPLATE_FILE name identifier has six resources:
 
-<table border="1" cellpadding="0" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="189"><p><strong>Resource</strong></p> </td> 
-   <td valign="top" width="284"><p><strong>Represents </strong></p> </td> 
+   <td><p><strong>Resource</strong></p> </td> 
+   <td><p><strong>Represents </strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="189"><p>101 </p> </td> 
-   <td valign="top" width="284"><p>.xls</p> </td> 
+   <td><p>101 </p> </td> 
+   <td><p>.xls</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="189"><p>102</p> </td> 
-   <td valign="top" width="284"><p>.doc</p> </td> 
+   <td><p>102</p> </td> 
+   <td><p>.doc</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="189"><p>103 </p> </td> 
-   <td valign="top" width="284"><p>.ppt</p> </td> 
+   <td><p>103 </p> </td> 
+   <td><p>.ppt</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="189"><p>104 </p> </td> 
-   <td valign="top" width="284"><p>.xlsx</p> </td> 
+   <td><p>104 </p> </td> 
+   <td><p>.xlsx</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="189"><p>105</p> </td> 
-   <td valign="top" width="284"><p>.docx</p> </td> 
+   <td><p>105</p> </td> 
+   <td><p>.docx</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="189"><p>106</p> </td> 
-   <td valign="top" width="284"><p>.pptx</p> </td> 
+   <td><p>106</p> </td> 
+   <td><p>.pptx</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -371,14 +371,39 @@ You can perform the following steps to package custom `CommonResources.dll`file 
 1. Create a batch file in the folder. For example, YOUR_FOLDER_NAME\Installer.bat
 1. Open the batch file for editing and add the following code to the batch file:
 
-   >[!NOTE]
-   >
-   >@echo&nbsp;off!!discoiqbr!!&nbsp;!!discoiqbr!!setlocal&nbsp;EnableDelayedExpansion!!discoiqbr!!&nbsp;!!discoiqbr!!msiexec&nbsp;/i&nbsp;YOUR_FOLDER_NAME\MSI_NAME.exe!!discoiqbr!!&nbsp;!!discoiqbr!!&nbsp;!!discoiqbr!!FOR&nbsp;/F&nbsp;"tokens=2,&#42;"&nbsp;%%A&nbsp;IN&nbsp;('REG&nbsp;query&nbsp;"HKLM\HARDWARE\DESCRIPTION\System\CentralProcessor\0"&nbsp;/v&nbsp;"Identifier"')&nbsp;DO&nbsp;set&nbsp;"IDENTIFIER=%%B"!!discoiqbr!!&nbsp;!!discoiqbr!!set&nbsp;IDENTIFIER=&nbsp;%IDENTIFIER:&nbsp;=%!!discoiqbr!!&nbsp;!!discoiqbr!!if&nbsp;not&nbsp;%IDENTIFIER:x86=%==%IDENTIFIER%&nbsp;(!!discoiqbr!!&nbsp;!!discoiqbr!!&nbsp;REM&nbsp;Fetching&nbsp;install&nbsp;path&nbsp;for&nbsp;32&nbsp;bit&nbsp;machine.!!discoiqbr!!&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;FOR&nbsp;/F&nbsp;"tokens=2,&#42;"&nbsp;%%A&nbsp;IN&nbsp;('REG&nbsp;query&nbsp;"HKLM\SOFTWARE\Adobe\LiveCycle&nbsp;Rights&nbsp;Management&nbsp;ES4\11.0.0"&nbsp;/v&nbsp;"InstallPath"')&nbsp;DO&nbsp;set&nbsp;"INSTALLPATH=%%B"!!discoiqbr!!&nbsp;!!discoiqbr!!)else&nbsp;(!!discoiqbr!!&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REM&nbsp;Fetching&nbsp;install&nbsp;path&nbsp;for&nbsp;64&nbsp;bit&nbsp;machine.!!discoiqbr!!&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FOR&nbsp;/F&nbsp;"tokens=2,&#42;"&nbsp;%%A&nbsp;IN&nbsp;('REG&nbsp;query&nbsp;"HKLM\SOFTWARE\Wow6432Node\Adobe\LiveCycle&nbsp;Rights&nbsp;Management&nbsp;ES4\11.0.0"&nbsp;/v&nbsp;"InstallPath"')&nbsp;DO&nbsp;set&nbsp;"INSTALLPATH=%%B"!!discoiqbr!!&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;)!!discoiqbr!!&nbsp;!!discoiqbr!!&nbsp;COPY&nbsp;"YOUR_FOLDER_NAME\CommonResources.dll"&nbsp;"%INSTALLPATH%"!!discoiqbr!!&nbsp;!!discoiqbr!!&nbsp;!!discoiqbr!!&nbsp;!!discoiqbr!!&nbsp;endlocal!!discoiqbr!!
-
+  ``` shell
+    @echo off
+    
+    setlocal EnableDelayedExpansion
+    
+    msiexec /i YOUR_FOLDER_NAME\MSI_NAME.exe
+    
+    
+    FOR /F "tokens=2,*" %%A IN ('REG query "HKLM\HARDWARE\DESCRIPTION\System\CentralProcessor\0" /v "Identifier"') DO set "IDENTIFIER=%%B"
+    
+    set IDENTIFIER= %IDENTIFIER: =%
+    
+    if not %IDENTIFIER:x86=%==%IDENTIFIER% (
+    
+    REM Fetching install path for 32 bit machine.
+    
+    FOR /F "tokens=2,*" %%A IN ('REG query "HKLM\SOFTWARE\Adobe\LiveCycle Rights Management ES4\11.0.0" /v "InstallPath"') DO set "INSTALLPATH=%%B"
+    
+    ) else (
+    
+        REM Fetching install path for 64 bit machine.
+    
+            FOR /F "tokens=2,*" %%A IN ('REG query "HKLM\SOFTWARE\Wow6432Node\Adobe\LiveCycle Rights Management ES4\11.0.0" /v "InstallPath"') DO set "INSTALLPATH=%%B"
+    
+        )
+    
+    COPY "YOUR_FOLDER_NAME\CommonResources.dll" "%INSTALLPATH%"
+  
+    endlocal
+  ```
    If you are using any other version of LiveCycle or AEM Forms on JEE apart from LiveCycle Rights Management ES4 and version as 11.0.0, replace the path of the registry key as following:
 
     * (Livecycle Rights Management ES2 and version 9.0): *HKLM\SOFTWARE\Adobe/LiveCycle* *Rights Management ES2\9.0 *
-    
     * (Livecycle Rights Management ES3 and version 10.0)
     * (Livecycle Rights Management ES4 and version 11.0) HKLM\SOFTWARE\Adobe\LiveCycle Rights Management ES4\11.0.0
     * (AEM 6.0 Forms on JEE and later verisons) HKLM\SOFTWARE\Adobe\LiveCycle Rights Management ES4\11.0.0
@@ -400,5 +425,3 @@ You can perform the following steps to package custom `CommonResources.dll`file 
    >runs the batch fil on completing the extraction.
 
 Now, the self-extracting installer of AEM Document Security extension for Microsoft Office packages custom CommonResources.dll file and is ready for distribution.
-
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
