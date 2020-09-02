@@ -1,16 +1,11 @@
 ---
 title: Installing and Configuring AEM Document Security Extension for Microsoft Office
-seo-title: Installing and Configuring AEM Document Security Extension for Microsoft Office
 description: This document guides you through installing and configuring Adobe Experience Manager Document Security Extension 6.2 for Microsoft Office.
-seo-description: This document guides you through installing and configuring Adobe Experience Manager Document Security Extension 6.2 for Microsoft Office.
 uuid: 9d7eb6bb-4780-4d82-8657-7c6c6d523af0
 content-type: reference
 topic-tags: installing
-geptopics: SG_AEMFORMS/categories/document_security
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Installing and Configuring AEM Document Security Extension for Microsoft Office{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
@@ -29,7 +24,7 @@ Before you install Document Security Extension for Microsoft Office, ensure that
 
 * You have read the [Release Notes](document-security-extension-release-notes.md).
 * Microsoft Office is activated. Activation dialog does not appear on opening Microsoft Office applications.
-* Latest service packs for Microsoft Windows and Microsoft Office are installed.  
+* Latest service packs for Microsoft Windows and Microsoft Office are installed.
 * If you are installing Document Security for Microsoft Office for an unsupported language, open the Office application at least once.
 
 >[!NOTE]
@@ -54,7 +49,7 @@ AEM Document Security Extension for Microsoft Office does not support third-part
 
 Ensure the following minimum configurations on which you want to install Document Security Extension:
 
-* 32-bit or 64-bit versions of Microsoft Windows 7 or Windows 10 in English, French, German, Japanese, Italian, Spanish, Brazilian Portuguese, Korean, Simplified Chinese, or Traditional Chinese.  
+* 32-bit or 64-bit versions of Microsoft Windows 7 or Windows 10 in English, French, German, Japanese, Italian, Spanish, Brazilian Portuguese, Korean, Simplified Chinese, or Traditional Chinese.
   **Note:** *Document security extension for Microsoft Office is also expected to work on Microsoft Surface devices.*
 
 * 32-bit or 64-bit versions Microsoft Office 2013, 2016, 2019 and Microsoft Office desktop applications installed as part of Office 365 in English, French, German, Japanese, Italian, Spanish, Brazilian Portuguese, Korean, Simplified Chinese, or Traditional Chinese.
@@ -89,7 +84,7 @@ The installer is also available as an MSI file, which can be used for customizat
 
 ### Install an MSI file in silent mode {#install-an-msi-file-in-silent-mode}
 
-1. Use a file extractor utility, such as WinZip, to extract the `DocumentSecurityExtensionforMicrosoftOffice.msi` file from the ZIP file.  
+1. Use a file extractor utility, such as WinZip, to extract the `DocumentSecurityExtensionforMicrosoftOffice.msi` file from the ZIP file.
 
 1. Open the command prompt, go to the folder that contains the MSI file, and type the following text:
 
@@ -122,35 +117,35 @@ Use the Orca database editor to customize the installer. The following steps des
 
 ### Create and configure the MSI file {#create-and-configure-the-msi-file}
 
-1. Click **[!UICONTROL Start > Programs > Orca]**.  
+1. Click **[!UICONTROL Start > Programs > Orca]**.
 
-1. Click **[!UICONTROL File > Open]**, and then browse to the `DocumentSecurityExtensionforMicrosoftOffice.msi` file.  
+1. Click **[!UICONTROL File > Open]**, and then browse to the `DocumentSecurityExtensionforMicrosoftOffice.msi` file.
 
-1. Select Property from the list of tables (on the left side).  
+1. Select Property from the list of tables (on the left side).
 
 1. Edit the following key Name values as applicable to your enterprise installation of Rights Management or Document Security.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td style="text-align: center;" valign="top" width="197"><p><strong>K</strong><strong>e</strong><strong>y Name</strong></p> </td> 
-   <td style="text-align: center;" valign="top" width="169"><p><strong>Description</strong></p> </td> 
-   <td style="text-align: center;" valign="top" width="224"><p><strong>K</strong><strong>e</strong><strong>y Value Default</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="197"><p><span class="code">APS_SERVER_NAME</span></p> </td> 
-   <td valign="top" width="169"><p>Display name.</p> </td> 
-   <td valign="top" width="224"><p>Default server</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="197"><p><span class="code">APS_SERVER_URL</span></p> </td> 
-   <td valign="top" width="169"><p>Host Server URL.</p> </td> 
-   <td valign="top" width="224"><p>https://default.corp.com:1234</p> </td> 
-  </tr> 
- </tbody> 
+<table border="1" cellpadding="1" cellspacing="0" width="100%">
+ <tbody>
+  <tr>
+   <td style="text-align: center;" valign="top" width="197"><p><strong>K</strong><strong>e</strong><strong>y Name</strong></p> </td>
+   <td style="text-align: center;" valign="top" width="169"><p><strong>Description</strong></p> </td>
+   <td style="text-align: center;" valign="top" width="224"><p><strong>K</strong><strong>e</strong><strong>y Value Default</strong></p> </td>
+  </tr>
+  <tr>
+   <td valign="top" width="197"><p><span class="code">APS_SERVER_NAME</span></p> </td>
+   <td valign="top" width="169"><p>Display name.</p> </td>
+   <td valign="top" width="224"><p>Default server</p> </td>
+  </tr>
+  <tr>
+   <td valign="top" width="197"><p><span class="code">APS_SERVER_URL</span></p> </td>
+   <td valign="top" width="169"><p>Host Server URL.</p> </td>
+   <td valign="top" width="224"><p>https://default.corp.com:1234</p> </td>
+  </tr>
+ </tbody>
 </table>
 
-1. Select Registry from the list of tables (on the left side).  
+1. Select Registry from the list of tables (on the left side).
 
 1. Edit the following key name value.
 
@@ -183,47 +178,47 @@ After you enable the auto-apply policy feature, the document is protected with t
 
 Before you begin, preconfigure the installer to point to your LiveCycle or AEM forms server, as described earlier in this article.
 
-1. Click **[!UICONTROL Start > Programs > Orca]**.  
+1. Click **[!UICONTROL Start > Programs > Orca]**.
 
-1. Click **[!UICONTROL File > Open]**, and then browse to the `DocumentSecurityExtensionforMicrosoftOffice.msi` file.  
+1. Click **[!UICONTROL File > Open]**, and then browse to the `DocumentSecurityExtensionforMicrosoftOffice.msi` file.
 
-1. Select Property from the list of tables (on the left side).  
+1. Select Property from the list of tables (on the left side).
 
 1. Edit the following key name values as applicable to your enterprise installation of Rights Management or Document Security.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td valign="top" width="25%"><p><strong>Key Name</strong></p> </td> 
-   <td valign="top" width="50%"><p><strong>Description</strong></p> </td> 
-   <td valign="top" width="25%"><p><strong>K</strong><strong>e</strong><strong>y Value Default</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_IS_AUTO_ APPLY</span></p> </td> 
-   <td valign="top" width="400"><p>Enable or disable the auto-apply policy feature.</p> <p><span class="code">1</span>: Enable</p> <p>0: Disable</p> </td> 
-   <td valign="top" width="145"><p>0</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_POLICY_I D</span></p> </td> 
-   <td valign="top" width="400"><p>The policy GUID to use when new documents are saved. Applies to the auto-apply policy feature.</p> </td> 
-   <td valign="top" width="145"><p>Hexadecimal policy ID as visible on the RM server</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_SERVER_U RL</span></p> </td> 
-   <td valign="top" width="400"><p>Server URL.</p> </td> 
-   <td valign="top" width="145"><p>default.corp.com</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_SERVER_P ORT_NO</span></p> </td> 
-   <td valign="top" width="400"><p>Server port number.</p> </td> 
-   <td valign="top" width="145"><p>1234</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE</span></p> </td> 
-   <td valign="top" width="400"><p>Determines whether documents can be created without Document Security protection if the client cannot contact the server to protect the document on first save.</p> <p>1: Allow unprotected saves)</p> <p>0: Prevent creation of new documents when the client cannot contact the server to save the document.</p> </td> 
-   <td valign="top" width="145"><p>0</p> </td> 
-  </tr> 
- </tbody> 
+<table border="1" cellpadding="1" cellspacing="0" width="100%">
+ <tbody>
+  <tr>
+   <td valign="top" width="25%"><p><strong>Key Name</strong></p> </td>
+   <td valign="top" width="50%"><p><strong>Description</strong></p> </td>
+   <td valign="top" width="25%"><p><strong>K</strong><strong>e</strong><strong>y Value Default</strong></p> </td>
+  </tr>
+  <tr>
+   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_IS_AUTO_ APPLY</span></p> </td>
+   <td valign="top" width="400"><p>Enable or disable the auto-apply policy feature.</p> <p><span class="code">1</span>: Enable</p> <p>0: Disable</p> </td>
+   <td valign="top" width="145"><p>0</p> </td>
+  </tr>
+  <tr>
+   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_POLICY_I D</span></p> </td>
+   <td valign="top" width="400"><p>The policy GUID to use when new documents are saved. Applies to the auto-apply policy feature.</p> </td>
+   <td valign="top" width="145"><p>Hexadecimal policy ID as visible on the RM server</p> </td>
+  </tr>
+  <tr>
+   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_SERVER_U RL</span></p> </td>
+   <td valign="top" width="400"><p>Server URL.</p> </td>
+   <td valign="top" width="145"><p>default.corp.com</p> </td>
+  </tr>
+  <tr>
+   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_SERVER_P ORT_NO</span></p> </td>
+   <td valign="top" width="400"><p>Server port number.</p> </td>
+   <td valign="top" width="145"><p>1234</p> </td>
+  </tr>
+  <tr>
+   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE</span></p> </td>
+   <td valign="top" width="400"><p>Determines whether documents can be created without Document Security protection if the client cannot contact the server to protect the document on first save.</p> <p>1: Allow unprotected saves)</p> <p>0: Prevent creation of new documents when the client cannot contact the server to save the document.</p> </td>
+   <td valign="top" width="145"><p>0</p> </td>
+  </tr>
+ </tbody>
 </table>
 
    >[!NOTE]
@@ -253,9 +248,9 @@ You can enable/disable the ribbon-less user interface by modifying settings in W
 
 1. Take a backup of Windows Registry before you make changes to it. For detailed instructions, see [How to Modify the Windows Registry](https://support.microsoft.com/en-us/kb/136393).
 1. In the Registry Editor, navigate to HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 or HKEY_LOCAL_MACHINE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
-1. Create a new Dword (32-bit) value named **HidePluginUI**.  
+1. Create a new Dword (32-bit) value named **HidePluginUI**.
 
-1. Set value of the **HidePluginUI **property to 1 to enable ribbon-less user interface.  
+1. Set value of the **HidePluginUI **property to 1 to enable ribbon-less user interface.
 
 1. Close the Registry Editor.
 
@@ -278,7 +273,7 @@ You can change Windows registry settings to make dynamic watermark co-exist with
 
 A user can attempt to open the protected document on a machine which does not have an AEM Document Security for Microsoft Office plug-in installed. Such machines cannot open the document. On such machines, you can display a cover page containing instructions to download AEM Document Security for Microsoft Office plug-in and other information.
 
-#### Before you configure a cover page {#before-you-configure-a-cover-page}
+### Before you configure a cover page {#before-you-configure-a-cover-page}
 
 * Take backup of the CommonResources.dll file. The default path is:
 
@@ -293,41 +288,41 @@ A user can attempt to open the protected document on a machine which does not ha
 
 [Get File](assets/templates.zip)
 
-#### Structure of the CommonResources.dll file {#structure-of-the-commonresources-dll-file}
+### Structure of the CommonResources.dll file {#structure-of-the-commonresources-dll-file}
 
 The CommonResources.dll file contains information about the resource templates. It contains two name identifiers TEMPLATE_FILE and RT_MANIFEST. To enable a custom cover page, the TEMPLATE_FILE name identifier is modified. The TEMPLATE_FILE name identifier has six resources:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><p><strong>Resource</strong></p> </td> 
-   <td><p><strong>Represents </strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>101 </p> </td> 
-   <td><p>.xls</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>102</p> </td> 
-   <td><p>.doc</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>103 </p> </td> 
-   <td><p>.ppt</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>104 </p> </td> 
-   <td><p>.xlsx</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>105</p> </td> 
-   <td><p>.docx</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>106</p> </td> 
-   <td><p>.pptx</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <td><p><strong>Resource</strong></p> </td>
+   <td><p><strong>Represents </strong></p> </td>
+  </tr>
+  <tr>
+   <td><p>101 </p> </td>
+   <td><p>.xls</p> </td>
+  </tr>
+  <tr>
+   <td><p>102</p> </td>
+   <td><p>.doc</p> </td>
+  </tr>
+  <tr>
+   <td><p>103 </p> </td>
+   <td><p>.ppt</p> </td>
+  </tr>
+  <tr>
+   <td><p>104 </p> </td>
+   <td><p>.xlsx</p> </td>
+  </tr>
+  <tr>
+   <td><p>105</p> </td>
+   <td><p>.docx</p> </td>
+  </tr>
+  <tr>
+   <td><p>106</p> </td>
+   <td><p>.pptx</p> </td>
+  </tr>
+ </tbody>
 </table>
 
 #### Configure the template as a cover page {#configure-the-template-as-a-cover-page}
@@ -338,7 +333,7 @@ The CommonResources.dll file contains information about the resource templates. 
    >
    >If the file does not appear in the Solution Explorer window, reopen the file using Open With option. Select the Resource editor as the editor.
 
-1. In the Solution Explorer window, expand the TEMPLATE_FILE directory, and delete resources 101. 
+1. In the Solution Explorer window, expand the TEMPLATE_FILE directory, and delete resources 101.
 
 1. Add the resources:
 
@@ -372,35 +367,38 @@ You can perform the following steps to package custom `CommonResources.dll`file 
 1. Open the batch file for editing and add the following code to the batch file:
 
   ``` shell
+
     @echo off
-    
+
     setlocal EnableDelayedExpansion
-    
+
     msiexec /i YOUR_FOLDER_NAME\MSI_NAME.exe
-    
-    
+
+
     FOR /F "tokens=2,*" %%A IN ('REG query "HKLM\HARDWARE\DESCRIPTION\System\CentralProcessor\0" /v "Identifier"') DO set "IDENTIFIER=%%B"
-    
+
     set IDENTIFIER= %IDENTIFIER: =%
-    
+
     if not %IDENTIFIER:x86=%==%IDENTIFIER% (
-    
+
     REM Fetching install path for 32 bit machine.
-    
+
     FOR /F "tokens=2,*" %%A IN ('REG query "HKLM\SOFTWARE\Adobe\LiveCycle Rights Management ES4\11.0.0" /v "InstallPath"') DO set "INSTALLPATH=%%B"
-    
+
     ) else (
-    
+
         REM Fetching install path for 64 bit machine.
-    
+
             FOR /F "tokens=2,*" %%A IN ('REG query "HKLM\SOFTWARE\Wow6432Node\Adobe\LiveCycle Rights Management ES4\11.0.0" /v "InstallPath"') DO set "INSTALLPATH=%%B"
-    
+
         )
-    
+
     COPY "YOUR_FOLDER_NAME\CommonResources.dll" "%INSTALLPATH%"
-  
+
     endlocal
-  ```
+
+    ```
+
    If you are using any other version of LiveCycle or AEM Forms on JEE apart from LiveCycle Rights Management ES4 and version as 11.0.0, replace the path of the registry key as following:
 
     * (Livecycle Rights Management ES2 and version 9.0): *HKLM\SOFTWARE\Adobe/LiveCycle* *Rights Management ES2\9.0 *
@@ -411,7 +409,7 @@ You can perform the following steps to package custom `CommonResources.dll`file 
 1. In the above code, replace all the instances of YOUR_FOLDER_NAME with the name of the folder that you created in step 2.
 1. **(For AEM Document Security extension for Microsoft Office installer with .exe extension only)** Replace the following line of code:
 
-   `msiexec /i YOUR_FOLDER_NAME\MSI_NAME.msi`  
+   `msiexec /i YOUR_FOLDER_NAME\MSI_NAME.msi`
    with
 
    `START /w YOUR_FOLDER_NAME\APPLICATION_NAME.exe`
@@ -421,7 +419,7 @@ You can perform the following steps to package custom `CommonResources.dll`file 
 
    >[!NOTE]
    >
-   >Ensure that the self-extracting package is set to run as an administrator and automatically  
+   >Ensure that the self-extracting package is set to run as an administrator and automatically
    >runs the batch fil on completing the extraction.
 
 Now, the self-extracting installer of AEM Document Security extension for Microsoft Office packages custom CommonResources.dll file and is ready for distribution.

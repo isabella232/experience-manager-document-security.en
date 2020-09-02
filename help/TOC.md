@@ -1,8 +1,8 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: adobe experience manager
+audience: end-user
+user-guide: Adobe Experience Manager Document Security User Guide
 ---
 
 # Table of Contents {#table-of-contents}

@@ -1,16 +1,10 @@
 ---
 title: Using AEM Document Security Extension for Microsoft Office
-seo-title: Using AEM Document Security Extension for Microsoft Office
 description: You can control how recipients use your policy-protected files, no matter how widely you distribute them. The document explains how to protect files and how to work with protected files.
-seo-description: You can control how recipients use your policy-protected files, no matter how widely you distribute them. The document explains how to protect files and how to work with protected files.
 uuid: db4abbc8-eb21-4f4a-9950-224ada95ce66
 content-type: reference
 topic-tags: using
-geptopics: SG_AEMFORMS/categories/document_security
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
-index: y
-internal: n
-snippet: y
 ---
 
 # Using AEM Document Security Extension for Microsoft Office{#using-aem-document-security-extension-for-microsoft-office}
@@ -102,7 +96,7 @@ You can use default AEM Forms URL for extended authentication. The default landi
 
 Perform the following steps to enable extended authentication with the default Adobe Landing URL:
 
-1. Open AEM Forms Admin UI. 
+1. Open AEM Forms Admin UI.
 1. Navigate to Services &gt; Document Security &gt; Configuration &gt; Server Configuration.
 1. Enable the Allow Extended Authentication option.
 1. Specify the default URL Extended Authentication Landing URL. The default URL is http://localhost:8080/edc/extendedauthentication/welcome.jsp.
@@ -113,7 +107,7 @@ Perform the following steps to enable extended authentication with the default A
    >
    >Use a fully qualified hostname in the URL. It is recommended to use HTTPS protocol.
 
-   Now, AEM Forms document security is configured to use extended authentication with default AEM Forms landing URL. 
+   Now, AEM Forms document security is configured to use extended authentication with default AEM Forms landing URL.
 
    ![](assets/third-party-authentication.png)
 
@@ -128,9 +122,9 @@ You can package the custom authentication page in a war file and deploy the war 
 
 Perform the following steps to enable extended authentication with a custom landing URL:
 
-1. Deploy the custom authentication war file to AEM Forms server. 
-1. Open AEM Forms Admin UI. 
-1. Navigate to Services &gt; Document Security &gt; Configuration &gt; Server Configuration. 
+1. Deploy the custom authentication war file to AEM Forms server.
+1. Open AEM Forms Admin UI.
+1. Navigate to Services &gt; Document Security &gt; Configuration &gt; Server Configuration.
 1. Enable the Allow Extended Authentication option and specify custom Extended Authentication Landing URL.
 1. Add the following entries to config.xml file under the SSO node after entry *&lt;node name=“AllowedUrls“&gt;*:
 
@@ -163,7 +157,7 @@ Perquisites to configure a custom extended authentication workflow when SAML pro
 
 You can also display a custom page to include all the all the authentication providers configured on AEM Forms server. Perform the following steps to create such a page:
 
-1. Package the custom authentication page in a war file and deploy the war file to AEM Forms server. The war file contains complete logic to accept user credentials and authenticate against the AEM Forms server. 
+1. Package the custom authentication page in a war file and deploy the war file to AEM Forms server. The war file contains complete logic to accept user credentials and authenticate against the AEM Forms server.
 1. Open AEM Forms Admin UI and navigate to **[!UICONTROL Settings]**> **[!UICONTROL User Management]** > **[!UICONTROL Configuration]** > **[!UICONTROL SAML Service Provider Settings]**.
 1. Add the following to the Custom Properties field and click **[!UICONTROL Save]**.
 
@@ -199,9 +193,9 @@ If you receive an email registration invitation from Document Security, you can 
 1. Click **Register**. A message appears informing you to check your email for an activation email message.
 1. Open the Document Security registration confirmation email.
 1. Click the URL that appears in the message.
-1. Click the link to the Login page. 
-1. In the **Username** box, type the email address you registered under with Document Security. This email address is your default Document Security user name. 
-1. In the **Password** box, type the password you created when you registered. 
+1. Click the link to the Login page.
+1. In the **Username** box, type the email address you registered under with Document Security. This email address is your default Document Security user name.
+1. In the **Password** box, type the password you created when you registered.
 1. Click **Login**.
 
 ### Create and manage policies {#creating-and-managing-policies}
@@ -210,117 +204,117 @@ If you have permission from the Document Security administrator, you can create 
 
 Some of the policy settings available for creating policies in the Document Security web pages are not supported for Word, Excel, and PowerPoint files. The following tables describe how the policy permissions map to Word, Excel, and PowerPoint features.
 
-<table cellpadding="4" cellspacing="0"> 
- <thead align="left"> 
-  <tr> 
-   <th class="cellrowborder" id="d19e716" valign="top" width="NaN%"><p>Permissions</p></th> 
-   <th class="cellrowborder" id="d19e719" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Print &gt; Not Allowed</p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Printing the file is not allowed.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Print &gt; Allowed</p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Printing the file is allowed.</p><p><strong>Note</strong>: <i>If a policy gives the Copy permission but not the Print permission, content copied to another file can be printed.</i></p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Print &gt; Low Res. Only</p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Not applicable.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Any</p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>The file can be changed.</p><p>When this permission is not given, you cannot modify protected Word and Excel files. You can modify PowerPoint files but cannot save the changes or view slide shows for modified files.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Not Allowed</p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Users cannot modify protected files.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Alter Pages</p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Not applicable.</p><p>Includes inserting, deleting, and rotating pages.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Fill &amp; Sign</p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Not applicable.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Offline</p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>The file can be opened offline.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Copy</p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>File contents can be copied to other files.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Screen Reader </p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Screen readers (devices for users with vision impairment) can read the file contents.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Permission Validity</p></td> 
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Supported.</p></td> 
-  </tr> 
- </tbody> 
+<table cellpadding="4" cellspacing="0">
+ <thead align="left">
+  <tr>
+   <th class="cellrowborder" id="d19e716" valign="top" width="NaN%"><p>Permissions</p></th>
+   <th class="cellrowborder" id="d19e719" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Print &gt; Not Allowed</p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Printing the file is not allowed.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Print &gt; Allowed</p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Printing the file is allowed.</p><p><strong>Note</strong>: <i>If a policy gives the Copy permission but not the Print permission, content copied to another file can be printed.</i></p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Print &gt; Low Res. Only</p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Not applicable.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Any</p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>The file can be changed.</p><p>When this permission is not given, you cannot modify protected Word and Excel files. You can modify PowerPoint files but cannot save the changes or view slide shows for modified files.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Not Allowed</p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Users cannot modify protected files.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Alter Pages</p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Not applicable.</p><p>Includes inserting, deleting, and rotating pages.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Fill &amp; Sign</p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Not applicable.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Offline</p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>The file can be opened offline.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Copy</p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>File contents can be copied to other files.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Screen Reader </p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Screen readers (devices for users with vision impairment) can read the file contents.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Permission Validity</p></td>
+   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Supported.</p></td>
+  </tr>
+ </tbody>
 </table>
 
-<table cellpadding="4" cellspacing="0"> 
- <thead align="left"> 
-  <tr> 
-   <th class="cellrowborder" id="d19e816" valign="top" width="NaN%"><p>General Settings</p></th> 
-   <th class="cellrowborder" id="d19e819" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>Validity period</p></td> 
-   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>Audit document</p></td> 
-   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>Auto-Offline lease period</p></td> 
-   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>External Authorization Providers</p></td> 
-   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td> 
-  </tr> 
- </tbody> 
+<table cellpadding="4" cellspacing="0">
+ <thead align="left">
+  <tr>
+   <th class="cellrowborder" id="d19e816" valign="top" width="NaN%"><p>General Settings</p></th>
+   <th class="cellrowborder" id="d19e819" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>Validity period</p></td>
+   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>Audit document</p></td>
+   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>Auto-Offline lease period</p></td>
+   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>External Authorization Providers</p></td>
+   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td>
+  </tr>
+ </tbody>
 </table>
 
-<table cellpadding="4" cellspacing="0"> 
- <thead align="left"> 
-  <tr> 
-   <th class="cellrowborder" id="d19e857" valign="top" width="NaN%"><p>Advanced Settings</p></th> 
-   <th class="cellrowborder" id="d19e860" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Dynamic watermarks</p></td> 
-   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>Supported.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Certification Plug-ins</p></td> 
-   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>Not applicable.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Encryption algorithm and key length </p></td> 
-   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>All options are supported.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Document restriction</p></td> 
-   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>All file contents are always encrypted regardless of the setting in the policy.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Access-denied error message</p></td> 
-   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>Supported.</p></td> 
-  </tr> 
- </tbody> 
+<table cellpadding="4" cellspacing="0">
+ <thead align="left">
+  <tr>
+   <th class="cellrowborder" id="d19e857" valign="top" width="NaN%"><p>Advanced Settings</p></th>
+   <th class="cellrowborder" id="d19e860" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Dynamic watermarks</p></td>
+   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>Supported.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Certification Plug-ins</p></td>
+   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>Not applicable.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Encryption algorithm and key length </p></td>
+   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>All options are supported.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Document restriction</p></td>
+   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>All file contents are always encrypted regardless of the setting in the policy.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Access-denied error message</p></td>
+   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>Supported.</p></td>
+  </tr>
+ </tbody>
 </table>
 
 For more information about creating and managing policies, see [Document Security End User Help](http://help.adobe.com/en_US/AEMForms/6.1/RMHelp/).
@@ -435,47 +429,47 @@ You create a dynamic watermark using the Document Security web pages. For more i
 
 Document Security Extension for Microsoft Office provides support for these watermark features:
 
-<table cellpadding="4" cellspacing="0"> 
- <thead align="left"> 
-  <tr> 
-   <th class="cellrowborder" id="d19e943" valign="top" width="NaN%"><p>Document Security watermark options</p></th> 
-   <th class="cellrowborder" id="d19e946" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Policy name</p></td> 
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Watermark name</p></td> 
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Use as background</p></td> 
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>The display behavior of a dynamic watermark is the same regardless of whether you select Use As Background.</p><p>For Word 2010 and 2013 dynamic watermark appears only in Print Layout and Print Preview view. </p><p>For Excel 2010 and 2013 also , it appears in the Print Preview and Page Layout views.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Vertical position</p></td> 
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Horizontal position</p></td> 
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p><p>For Excel 2010 and 2013, the horizontal positioning of watermarks using points does not work.</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Scale</p></td> 
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Position</p></td> 
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Opacity</p></td> 
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td> 
-  </tr> 
- </tbody> 
+<table cellpadding="4" cellspacing="0">
+ <thead align="left">
+  <tr>
+   <th class="cellrowborder" id="d19e943" valign="top" width="NaN%"><p>Document Security watermark options</p></th>
+   <th class="cellrowborder" id="d19e946" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Policy name</p></td>
+   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Watermark name</p></td>
+   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Use as background</p></td>
+   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>The display behavior of a dynamic watermark is the same regardless of whether you select Use As Background.</p><p>For Word 2010 and 2013 dynamic watermark appears only in Print Layout and Print Preview view. </p><p>For Excel 2010 and 2013 also , it appears in the Print Preview and Page Layout views.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Vertical position</p></td>
+   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Horizontal position</p></td>
+   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p><p>For Excel 2010 and 2013, the horizontal positioning of watermarks using points does not work.</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Scale</p></td>
+   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Position</p></td>
+   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td>
+  </tr>
+  <tr>
+   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Opacity</p></td>
+   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td>
+  </tr>
+ </tbody>
 </table>
 
 ### Opening the Document Security web pages {#opening-the-document-security-web-pages}

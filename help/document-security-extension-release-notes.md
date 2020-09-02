@@ -1,16 +1,10 @@
 ---
 title: AEM Document Security for Microsoft Office - Release Notes
-seo-title: AEM Document Security for Microsoft Office - Release Notes
 description: Read the release notes before you install AEM Document Security 6.2 Extension for Microsoft Office.
-seo-description: Read the release notes before you install AEM Document Security 6.2 Extension for Microsoft Office.
 uuid: f6ab73d4-ac4e-4fff-9bb8-917b75401653
 content-type: reference
-geptopics: SG_AEMFORMS/categories/document_security
 topic-tags: installing
 discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Document Security for Microsoft Office - Release Notes{#aem-document-security-for-microsoft-office-release-notes}
@@ -122,4 +116,4 @@ If multiple certificates are present on the client machine and the user cancels 
 
 On attempting to edit a protected document, Microsoft PowerPoint displays a message, "You are not allowed to modify this document. You will not be able to save your changes.". After closing the message, users can continue to add text or edit the document. But, the changes made to the protected documents are not saved.
 
-The above-mentioned behavior is as expected in PowerPoint 2013, PowerPoint 2016 and PowerPoint 2019. 
+The above-mentioned behavior is as expected in PowerPoint 2013, PowerPoint 2016 and PowerPoint 2019.
