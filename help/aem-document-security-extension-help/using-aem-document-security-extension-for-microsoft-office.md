@@ -22,7 +22,7 @@ discoiquuid: df6ca960-ccfb-411a-b61d-d52bce0725a7
 
 >[!NOTE]
 >
->[Troubleshooting AEM Document Security Extension for Microsoft Office](../Troubleshooting-Document-Security-Extension.md) {#troubleshooting-aem-document-security-extension-for-microsoft-office}
+>[Troubleshooting AEM Document Security Extension for Microsoft Office](../troubleshooting-document-security-extension.md) {#troubleshooting-aem-document-security-extension-for-microsoft-office}
 >
 >If you have problems installing, configuring, or using the AEM Document Security Extension for Microsoft Office, follow the instructions listed in this document.
 
