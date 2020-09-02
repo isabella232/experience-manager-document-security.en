@@ -395,7 +395,8 @@ You can perform the following steps to package custom `CommonResources.dll`file 
     COPY "YOUR_FOLDER_NAME\CommonResources.dll" "%INSTALLPATH%"
 
     endlocal
-  ```
+    ```
+
    If you are using any other version of LiveCycle or AEM Forms on JEE apart from LiveCycle Rights Management ES4 and version as 11.0.0, replace the path of the registry key as following:
 
     * (Livecycle Rights Management ES2 and version 9.0): *HKLM\SOFTWARE\Adobe/LiveCycle* *Rights Management ES2\9.0 *
