@@ -2,7 +2,7 @@
 
 | Production | Stage |
 |---|---|
-| [![Build Status](https://docs.ci.corp.adobe.com/job/document-cloud-learn.en_production/badge/icon)](https://docs.ci.corp.adobe.com/job/document-cloud-learn.en_production/lastBuild) | [![Build Status](https://docs.ci.corp.adobe.com/job/document-cloud-learn.en_stage/badge/icon)](https://docs.ci.corp.adobe.com/job/document-cloud-learn.en_stage/lastBuild) |
+| [![Build Status](https://docs.ci.corp.adobe.com/job/experience-manager-docs-security.en_production/badge/icon)](https://docs.ci.corp.adobe.com/job/experience-manager-docs-security_production/lastBuild) | [![Build Status](https://docs.ci.corp.adobe.com/job/experience-manager-docs-security.en_stage/badge/icon)](https://docs.ci.corp.adobe.com/job/experience-manager-docs-security.en_stage/lastBuild) |
 
 <!--
 |[Output Prod](https://docs.adobe.com/content/help/en/document-cloud-learn/tutorials/overview.html)|[Output Stg](https://docs-stg.corp.adobe.com/content/help/en/document-cloud-learn/tutorials/overview.html)|
