@@ -125,22 +125,22 @@ Use the Orca database editor to customize the installer. The following steps des
 
 1. Edit the following key Name values as applicable to your enterprise installation of Rights Management or Document Security.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
+<table>
  <tbody>
   <tr>
-   <td style="text-align: center;" valign="top" width="197"><p><strong>K</strong><strong>e</strong><strong>y Name</strong></p> </td>
-   <td style="text-align: center;" valign="top" width="169"><p><strong>Description</strong></p> </td>
-   <td style="text-align: center;" valign="top" width="224"><p><strong>K</strong><strong>e</strong><strong>y Value Default</strong></p> </td>
+   <td><p><strong>K</strong><strong>e</strong><strong>y Name</strong></p> </td>
+   <td><p><strong>Description</strong></p> </td>
+   <td><p><strong>K</strong><strong>e</strong><strong>y Value Default</strong></p> </td>
   </tr>
   <tr>
-   <td valign="top" width="197"><p><span class="code">APS_SERVER_NAME</span></p> </td>
-   <td valign="top" width="169"><p>Display name.</p> </td>
-   <td valign="top" width="224"><p>Default server</p> </td>
+   <td><p><code>APS_SERVER_NAME</code></p> </td>
+   <td><p>Display name.</p> </td>
+   <td><p>Default server</p> </td>
   </tr>
   <tr>
-   <td valign="top" width="197"><p><span class="code">APS_SERVER_URL</span></p> </td>
-   <td valign="top" width="169"><p>Host Server URL.</p> </td>
-   <td valign="top" width="224"><p>https://default.corp.com:1234</p> </td>
+   <td><p><code>APS_SERVER_URL</code></p> </td>
+   <td><p>Host Server URL.</p> </td>
+   <td><p>https://default.corp.com:1234</p> </td>
   </tr>
  </tbody>
 </table>
