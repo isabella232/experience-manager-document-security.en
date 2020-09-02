@@ -21,7 +21,7 @@ If you installed and configured everything according to the documentation, revie
 The LoadBehavior property in Windows Registry specifies the runtime behavior of document security plug-in. If the LoadBehavior property is set to 3, all the plug-ins are loaded automatically. Before installing the Document Security Extension for Microsoft office, ensure that the value LoadBehavior property is set to 3.
 
 1. Take a backup of Windows Registry before you make changes to it. For detailed instructions, see [How to Modify the Windows Registry](https://support.microsoft.com/en-us/kb/136393).
-1. In the Registry Editor, navigate toHKEY_CUREENT_USER\Software\Microsoft\Office\Word\Addins\Adobe.DRMIntegration.WordAddin or HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Word\Addins\Adobe.DRM.
+1. In the Registry Editor, navigate toHKEY_CURRENT_USER\Software\Microsoft\Office\Word\Addins\Adobe.DRMIntegration.WordAddin or HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Word\Addins\Adobe.DRM.
 1. Set value of the **LoadBehavior **property to 3.
 
 1. Close the Registry Editor.
