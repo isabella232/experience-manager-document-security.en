@@ -1,14 +1,9 @@
 ---
 title: Download Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft Office
-seo-title: Download Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft Office
 description: Use Document Security Extension for Microsoft Office software to protecting critical files against unauthorized access
-seo-description: Use Document Security Extension for Microsoft Office software to protecting critical files against unauthorized access
 uuid: b4c7d1d1-7eae-4fd3-8282-132c80a976e8
 contentOwner: khsingh
 discoiquuid: b32c7bb8-0060-4c2a-90fc-446b6ba39159
-index: y
-internal: n
-snippet: y
 ---
 
 # Download Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft Office {#download-adobe-experience-manager-document-security-livecycle-rights-management-extension-for-microsoft-office}

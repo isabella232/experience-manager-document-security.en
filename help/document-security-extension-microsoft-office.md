@@ -1,16 +1,10 @@
 ---
 title: Introduction to AEM Document Security Extension for Microsoft Office
-seo-title: Introduction to AEM Document Security Extension for Microsoft Office
-description: Using document Security Extension for Microsoft Office, you can apply predefined confidentiality settings to your Microsoft Office files. 
-seo-description: Using document Security Extension for Microsoft Office, you can apply predefined confidentiality settings to your Microsoft Office files. 
+description: Using document Security Extension for Microsoft Office, you can apply predefined confidentiality settings to your Microsoft Office files.
 uuid: a5428c50-fae3-4823-9e6f-0f5306e7248f
 content-type: reference
 topic-tags: using
-geptopics: SG_AEMFORMS/categories/document_security
 discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to AEM Document Security Extension for Microsoft Office{#introduction-to-aem-document-security-extension-for-microsoft-office}
@@ -47,7 +41,7 @@ For a user to open and use policy-protected Word, Excel, and PowerPoint files, t
 
 When a user attempts to open a policy-protected file, Document Security Extension for Microsoft Office connects to Document Security to authenticate the user. If Document Security is configured to audit file usage, the user sees a notification indicating that the file usage is being audited. Document Security determines which file permissions to grant the user and the user can then use the file according to the policy settings, under these conditions:
 
-* For the validity period that is specified in the policy. 
+* For the validity period that is specified in the policy.
 * Until an administrator or the person who applied the policy either revokes the access to the file or changes the policy.
 
   If the person who applied the policy changes the policy or revokes access to the file, the user’s permissions for the file are changed or removed even though the user already has the file. If the file itself was revoked, a URL may be provided to the user to get an updated copy.
@@ -68,21 +62,21 @@ While working with the successful bidder, the manufacturer’s engineers change 
 
 ## Additional Information {#additional-information}
 
-The resources in this table can help you learn more about AEM Document Security: 
+The resources in this table can help you learn more about AEM Document Security:
 
-<table > 
+<table >
  <tbody>
   <tr>
-   <th><p>For information about</p> </th> 
-   <th><p>See</p> </th> 
+   <th><p>For information about</p> </th>
+   <th><p>See</p> </th>
   </tr>
   <tr>
-   <td><p>AEM forms Administrator Help</p> </td> 
-   <td><p><a href="http://www.adobe.com/go/learn_aemforms_admin_65">Administrator Help</a> or, on the Document Security administration pages, click the Help link in the upper-right corner of a page.</p> </td> 
+   <td><p>AEM forms Administrator Help</p> </td>
+   <td><p><a href="http://www.adobe.com/go/learn_aemforms_admin_65">Administrator Help</a> or, on the Document Security administration pages, click the Help link in the upper-right corner of a page.</p> </td>
   </tr>
   <tr>
-   <td><p>Patch updates, technical notes, and additional information about this product version</p> </td> 
-   <td><p><a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Marketing Cloud Technical Support</a></p> </td> 
+   <td><p>Patch updates, technical notes, and additional information about this product version</p> </td>
+   <td><p><a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Marketing Cloud Technical Support</a></p> </td>
   </tr>
  </tbody>
 </table>
