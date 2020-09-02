@@ -204,115 +204,115 @@ If you have permission from the Document Security administrator, you can create 
 
 Some of the policy settings available for creating policies in the Document Security web pages are not supported for Word, Excel, and PowerPoint files. The following tables describe how the policy permissions map to Word, Excel, and PowerPoint features.
 
-<table cellpadding="4" cellspacing="0">
- <thead align="left">
+<table>
+ <thead>
   <tr>
-   <th class="cellrowborder" id="d19e716" valign="top" width="NaN%"><p>Permissions</p></th>
-   <th class="cellrowborder" id="d19e719" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th>
+   <th><p>Permissions</p></th>
+   <th><p>Word, Excel, and PowerPoint support</p></th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Print &gt; Not Allowed</p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Printing the file is not allowed.</p></td>
+   <td><p>Print &gt; Not Allowed</p></td>
+   <td><p>Printing the file is not allowed.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Print &gt; Allowed</p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Printing the file is allowed.</p><p><strong>Note</strong>: <i>If a policy gives the Copy permission but not the Print permission, content copied to another file can be printed.</i></p></td>
+   <td><p>Print &gt; Allowed</p></td>
+   <td><p>Printing the file is allowed.</p><p><strong>Note</strong>: <i>If a policy gives the Copy permission but not the Print permission, content copied to another file can be printed.</i></p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Print &gt; Low Res. Only</p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Not applicable.</p></td>
+   <td><p>Print &gt; Low Res. Only</p></td>
+   <td><p>Not applicable.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Any</p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>The file can be changed.</p><p>When this permission is not given, you cannot modify protected Word and Excel files. You can modify PowerPoint files but cannot save the changes or view slide shows for modified files.</p></td>
+   <td><p>Change &gt; Any</p></td>
+   <td><p>The file can be changed.</p><p>When this permission is not given, you cannot modify protected Word and Excel files. You can modify PowerPoint files but cannot save the changes or view slide shows for modified files.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Not Allowed</p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Users cannot modify protected files.</p></td>
+   <td><p>Change &gt; Not Allowed</p></td>
+   <td><p>Users cannot modify protected files.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Alter Pages</p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Not applicable.</p><p>Includes inserting, deleting, and rotating pages.</p></td>
+   <td><p>Change &gt; Alter Pages</p></td>
+   <td><p>Not applicable.</p><p>Includes inserting, deleting, and rotating pages.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Change &gt; Fill &amp; Sign</p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Not applicable.</p></td>
+   <td><p>Change &gt; Fill &amp; Sign</p></td>
+   <td><p>Not applicable.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Offline</p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>The file can be opened offline.</p></td>
+   <td><p>Offline</p></td>
+   <td><p>The file can be opened offline.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Copy</p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>File contents can be copied to other files.</p></td>
+   <td><p>Copy</p></td>
+   <td><p>File contents can be copied to other files.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Screen Reader </p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Screen readers (devices for users with vision impairment) can read the file contents.</p></td>
+   <td><p>Screen Reader </p></td>
+   <td><p>Screen readers (devices for users with vision impairment) can read the file contents.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e716 " valign="top" width="NaN%"><p>Permission Validity</p></td>
-   <td class="cellrowborder" headers="d19e719 " valign="top" width="NaN%"><p>Supported.</p></td>
+   <td><p>Permission Validity</p></td>
+   <td><p>Supported.</p></td>
   </tr>
  </tbody>
 </table>
 
-<table cellpadding="4" cellspacing="0">
- <thead align="left">
+<table>
+ <thead>
   <tr>
-   <th class="cellrowborder" id="d19e816" valign="top" width="NaN%"><p>General Settings</p></th>
-   <th class="cellrowborder" id="d19e819" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th>
+   <th><p>General Settings</p></th>
+   <th><p>Word, Excel, and PowerPoint support</p></th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>Validity period</p></td>
-   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td>
+   <td><p>Validity period</p></td>
+   <td><p>Supported.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>Audit document</p></td>
-   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td>
+   <td><p>Audit document</p></td>
+   <td><p>Supported.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>Auto-Offline lease period</p></td>
-   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td>
+   <td><p>Auto-Offline lease period</p></td>
+   <td><p>Supported.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e816 " valign="top" width="NaN%"><p>External Authorization Providers</p></td>
-   <td class="cellrowborder" headers="d19e819 " valign="top" width="NaN%"><p>Supported.</p></td>
+   <td><p>External Authorization Providers</p></td>
+   <td><p>Supported.</p></td>
   </tr>
  </tbody>
 </table>
 
-<table cellpadding="4" cellspacing="0">
- <thead align="left">
+<table>
+ <thead>
   <tr>
-   <th class="cellrowborder" id="d19e857" valign="top" width="NaN%"><p>Advanced Settings</p></th>
-   <th class="cellrowborder" id="d19e860" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th>
+   <th><p>Advanced Settings</p></th>
+   <th><p>Word, Excel, and PowerPoint support</p></th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Dynamic watermarks</p></td>
-   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>Supported.</p></td>
+   <td><p>Dynamic watermarks</p></td>
+   <td><p>Supported.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Certification Plug-ins</p></td>
-   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>Not applicable.</p></td>
+   <td><p>Certification Plug-ins</p></td>
+   <td><p>Not applicable.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Encryption algorithm and key length </p></td>
-   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>All options are supported.</p></td>
+   <td><p>Encryption algorithm and key length </p></td>
+   <td><p>All options are supported.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Document restriction</p></td>
-   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>All file contents are always encrypted regardless of the setting in the policy.</p></td>
+   <td><p>Document restriction</p></td>
+   <td><p>All file contents are always encrypted regardless of the setting in the policy.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e857 " valign="top" width="NaN%"><p>Access-denied error message</p></td>
-   <td class="cellrowborder" headers="d19e860 " valign="top" width="NaN%"><p>Supported.</p></td>
+   <td><p>Access-denied error message</p></td>
+   <td><p>Supported.</p></td>
   </tr>
  </tbody>
 </table>

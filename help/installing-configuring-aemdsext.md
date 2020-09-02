@@ -186,37 +186,37 @@ Before you begin, preconfigure the installer to point to your LiveCycle or AEM f
 
 1. Edit the following key name values as applicable to your enterprise installation of Rights Management or Document Security.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
+<table>
  <tbody>
   <tr>
-   <td valign="top" width="25%"><p><strong>Key Name</strong></p> </td>
-   <td valign="top" width="50%"><p><strong>Description</strong></p> </td>
-   <td valign="top" width="25%"><p><strong>K</strong><strong>e</strong><strong>y Value Default</strong></p> </td>
+   <td><p><strong>Key Name</strong></p> </td>
+   <td><p><strong>Description</strong></p> </td>
+   <td><p><strong>K</strong><strong>e</strong><strong>y Value Default</strong></p> </td>
   </tr>
   <tr>
-   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_IS_AUTO_ APPLY</span></p> </td>
-   <td valign="top" width="400"><p>Enable or disable the auto-apply policy feature.</p> <p><span class="code">1</span>: Enable</p> <p>0: Disable</p> </td>
-   <td valign="top" width="145"><p>0</p> </td>
+   <td><p><code>AUTO_APPLY_POLICY_IS_AUTO_ APPLY</code></p> </td>
+   <td><p>Enable or disable the auto-apply policy feature.</p> <p><code>1</code>: Enable</p> <p>0: Disable</p> </td>
+   <td><p>0</p> </td>
   </tr>
   <tr>
-   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_POLICY_I D</span></p> </td>
-   <td valign="top" width="400"><p>The policy GUID to use when new documents are saved. Applies to the auto-apply policy feature.</p> </td>
-   <td valign="top" width="145"><p>Hexadecimal policy ID as visible on the RM server</p> </td>
+   <td><p><code">AUTO_APPLY_POLICY_POLICY_I D</code></p> </td>
+   <td><p>The policy GUID to use when new documents are saved. Applies to the auto-apply policy feature.</p> </td>
+   <td><p>Hexadecimal policy ID as visible on the RM server</p> </td>
   </tr>
   <tr>
-   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_SERVER_U RL</span></p> </td>
-   <td valign="top" width="400"><p>Server URL.</p> </td>
-   <td valign="top" width="145"><p>default.corp.com</p> </td>
+   <td><p><code>AUTO_APPLY_POLICY_SERVER_U RL</code></p> </td>
+   <td><p>Server URL.</p> </td>
+   <td><p>default.corp.com</p> </td>
   </tr>
   <tr>
-   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_SERVER_P ORT_NO</span></p> </td>
-   <td valign="top" width="400"><p>Server port number.</p> </td>
-   <td valign="top" width="145"><p>1234</p> </td>
+   <td><p><code>AUTO_APPLY_POLICY_SERVER_P ORT_NO</code></p> </td>
+   <td><p>Server port number.</p> </td>
+   <td><p>1234</p> </td>
   </tr>
   <tr>
-   <td valign="top" width="180"><p><span class="code">AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE</span></p> </td>
-   <td valign="top" width="400"><p>Determines whether documents can be created without Document Security protection if the client cannot contact the server to protect the document on first save.</p> <p>1: Allow unprotected saves)</p> <p>0: Prevent creation of new documents when the client cannot contact the server to save the document.</p> </td>
-   <td valign="top" width="145"><p>0</p> </td>
+   <td><p><code>AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE</code></p> </td>
+   <td><p>Determines whether documents can be created without Document Security protection if the client cannot contact the server to protect the document on first save.</p> <p>1: Allow unprotected saves </p> <p>0: Prevent creation of new documents when the client cannot contact the server to save the document.</p> </td>
+   <td><p>0</p> </td>
   </tr>
  </tbody>
 </table>
