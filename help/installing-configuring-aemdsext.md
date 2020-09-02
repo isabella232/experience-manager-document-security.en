@@ -273,7 +273,7 @@ You can change Windows registry settings to make dynamic watermark co-exist with
 
 A user can attempt to open the protected document on a machine which does not have an AEM Document Security for Microsoft Office plug-in installed. Such machines cannot open the document. On such machines, you can display a cover page containing instructions to download AEM Document Security for Microsoft Office plug-in and other information.
 
-#### Before you configure a cover page {#before-you-configure-a-cover-page}
+### Before you configure a cover page {#before-you-configure-a-cover-page}
 
 * Take backup of the CommonResources.dll file. The default path is:
 
@@ -288,7 +288,7 @@ A user can attempt to open the protected document on a machine which does not ha
 
 [Get File](assets/templates.zip)
 
-#### Structure of the CommonResources.dll file {#structure-of-the-commonresources-dll-file}
+### Structure of the CommonResources.dll file {#structure-of-the-commonresources-dll-file}
 
 The CommonResources.dll file contains information about the resource templates. It contains two name identifiers TEMPLATE_FILE and RT_MANIFEST. To enable a custom cover page, the TEMPLATE_FILE name identifier is modified. The TEMPLATE_FILE name identifier has six resources:
 
