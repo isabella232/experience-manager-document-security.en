@@ -35,11 +35,11 @@ Before you install Document Security Extension for Microsoft Office, ensure that
 >
 >Installing a 32-bit version of Document Security extension on a 64-bit operating system is supported but the opposite way is not supported. You cannot install 64-bit version of Document Security extension for Microsoft Office on a 32-bit operating system.
 
-### Disable McAfee VirusScan&nbsp; {#disable-mcafee-virusscan-nbsp}
+### Disable McAfee VirusScan& {#disable-mcafee-virusscan}
 
 To ensure that Office applications start smoothly on a machine that has Document Security Extension installed and McAfee VirusScan with On-Access Scan enabled, disable the Buffer Overflow Protection option in the McAfee VirusScan Console.
 
-### Uninstall third-party plug-ins <br> {#uninstall-third-party-plug-ins-br}
+### Uninstall third-party plug-ins {#uninstall-third-party-plug-ins}
 
 AEM Document Security Extension for Microsoft Office does not support third-party plug-ins for Microsoft Office applications. As this extension conflicts with third-party plug-ins, uninstall any non-Adobe plug-ins for Microsoft Office before installing Document Security for Microsoft Office. Adobe does not provide support for Document Security for Microsoft Office applications with third-party plug-ins installed.
 
@@ -60,7 +60,7 @@ Ensure the following minimum configurations on which you want to install Documen
 * 2 GB of RAM
 * 100 MB of available hard disk space
 
-### Document Security &nbsp; {#document-security-nbsp}
+### Document Security {#document-security}
 
 To use Document Security Extension, ensure that you are able to connect to Adobe LiveCycle Rights Management ES2 and later or Document Security add-on for AEM 6.0 forms or later.
 
@@ -174,7 +174,7 @@ After you enable the auto-apply policy feature, the document is protected with t
 * User edits and saves an unprotected document
 * User opens an application that opens with a default document, edits, and then saves the document
 
-### Configure the auto-apply policy feature in the MSI file&nbsp; {#configure-the-auto-apply-policy-feature-in-the-msi-file-nbsp}
+### Configure the auto-apply policy feature in the MSI file&nbsp; {#configure-the-auto-apply-policy-feature-in-the-msi-file}
 
 Before you begin, preconfigure the installer to point to your LiveCycle or AEM forms server, as described earlier in this article.
 
@@ -199,7 +199,7 @@ Before you begin, preconfigure the installer to point to your LiveCycle or AEM f
    <td><p>0</p> </td>
   </tr>
   <tr>
-   <td><p><code">AUTO_APPLY_POLICY_POLICY_I D</code></p> </td>
+   <td><p><code>AUTO_APPLY_POLICY_POLICY_I D</code></p> </td>
    <td><p>The policy GUID to use when new documents are saved. Applies to the auto-apply policy feature.</p> </td>
    <td><p>Hexadecimal policy ID as visible on the RM server</p> </td>
   </tr>
@@ -269,7 +269,7 @@ You can change Windows registry settings to make dynamic watermark co-exist with
 >
 >In Windows Explorer, you can use the File menu or context menu to create a Microsoft Excel Document. For the documents created with stated methods, the print date cannot be retrieved or changed. It is a limitation of Microsoft Excel. AEM Document Security watermarks rely on the print date of the document. So, for such documents, the watermark is reverted to a previous date. Moreover, headers and footers are also not retained.
 
-## Add a custom cover page to a document <br> {#coverpage}
+## Add a custom cover page to a document {#coverpage}
 
 A user can attempt to open the protected document on a machine which does not have an AEM Document Security for Microsoft Office plug-in installed. Such machines cannot open the document. On such machines, you can display a cover page containing instructions to download AEM Document Security for Microsoft Office plug-in and other information.
 
