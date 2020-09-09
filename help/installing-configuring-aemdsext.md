@@ -269,7 +269,7 @@ You can change Windows registry settings to make dynamic watermark co-exist with
 >
 >In Windows Explorer, you can use the File menu or context menu to create a Microsoft Excel Document. For the documents created with stated methods, the print date cannot be retrieved or changed. It is a limitation of Microsoft Excel. AEM Document Security watermarks rely on the print date of the document. So, for such documents, the watermark is reverted to a previous date. Moreover, headers and footers are also not retained.
 
-## Add a custom cover page to a document <br> {#coverpage}
+## Add a custom cover page to a document {#coverpage}
 
 A user can attempt to open the protected document on a machine which does not have an AEM Document Security for Microsoft Office plug-in installed. Such machines cannot open the document. On such machines, you can display a cover page containing instructions to download AEM Document Security for Microsoft Office plug-in and other information.
 

@@ -429,45 +429,45 @@ You create a dynamic watermark using the Document Security web pages. For more i
 
 Document Security Extension for Microsoft Office provides support for these watermark features:
 
-<table cellpadding="4" cellspacing="0">
- <thead align="left">
+<table>
+ <thead>
   <tr>
-   <th class="cellrowborder" id="d19e943" valign="top" width="NaN%"><p>Document Security watermark options</p></th>
-   <th class="cellrowborder" id="d19e946" valign="top" width="NaN%"><p>Word, Excel, and PowerPoint support</p></th>
+   <th><p>Document Security watermark options</p></th>
+   <th><p>Word, Excel, and PowerPoint support</p></th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Policy name</p></td>
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported.</p></td>
+   <td><p>Policy name</p></td>
+   <td><p>Supported.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Watermark name</p></td>
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported.</p></td>
+   <td><p>Watermark name</p></td>
+   <td><p>Supported.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Use as background</p></td>
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>The display behavior of a dynamic watermark is the same regardless of whether you select Use As Background.</p><p>For Word 2010 and 2013 dynamic watermark appears only in Print Layout and Print Preview view. </p><p>For Excel 2010 and 2013 also , it appears in the Print Preview and Page Layout views.</p></td>
+   <td><p>Use as background</p></td>
+   <td><p>The display behavior of a dynamic watermark is the same regardless of whether you select Use As Background.</p><p>For Word 2010 and 2013 dynamic watermark appears only in Print Layout and Print Preview view. </p><p>For Excel 2010 and 2013 also , it appears in the Print Preview and Page Layout views.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Vertical position</p></td>
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td>
+   <td><p>Vertical position</p></td>
+   <td><p>Supported</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Horizontal position</p></td>
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p><p>For Excel 2010 and 2013, the horizontal positioning of watermarks using points does not work.</p></td>
+   <td><p>Horizontal position</p></td>
+   <td><p>Supported</p><p>For Excel 2010 and 2013, the horizontal positioning of watermarks using points does not work.</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Scale</p></td>
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td>
+   <td><p>Scale</p></td>
+   <td><p>Supported</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Position</p></td>
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td>
+   <td><p>Position</p></td>
+   <td><p>Supported</p></td>
   </tr>
   <tr>
-   <td class="cellrowborder" headers="d19e943 " valign="top" width="NaN%"><p>Opacity</p></td>
-   <td class="cellrowborder" headers="d19e946 " valign="top" width="NaN%"><p>Supported</p></td>
+   <td><p>Opacity</p></td>
+   <td><p>Supported</p></td>
   </tr>
  </tbody>
 </table>
