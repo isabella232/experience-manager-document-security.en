@@ -43,26 +43,26 @@ In Microsoft Office, the following options are unavailable during a protected se
 
 * Microsoft Office 2016 or Microsoft Office 2019
 
-    * File &gt; Save As
-    * File &gt; History
-    * File &gt; Share
-    * File &gt; Export
-    * File &gt; Publish
-    * File &gt; Account
-    * File &gt; Info &gt; Protect Document/Workbook/Presentation &gt; Encrypt with Password
-    * File &gt; Info &gt; Protect Document &gt;Add a Digital Signature
-    * File &gt; Info &gt; Protect Document &gt; Mark as Final
-    * Share option on top right
+  * File &gt; Save As
+  * File &gt; History
+  * File &gt; Share
+  * File &gt; Export
+  * File &gt; Publish
+  * File &gt; Account
+  * File &gt; Info &gt; Protect Document/Workbook/Presentation &gt; Encrypt with Password
+  * File &gt; Info &gt; Protect Document &gt;Add a Digital Signature
+  * File &gt; Info &gt; Protect Document &gt; Mark as Final
+  * Share option on top right
 
 * Microsoft Office 2013
 
-    * File &gt; Save As
-    * File &gt; Share
-    * File &gt; Export
-    * File &gt; Account
-    * File &gt; Info &gt; Protect Document/Workbook/Presentation &gt; Encrypt with Password
-    * File &gt; Info &gt; Protect Document &gt;Add a Digital Signature
-    * File &gt; Info &gt; Protect Document &gt; Mark as Final
+  * File &gt; Save As
+  * File &gt; Share
+  * File &gt; Export
+  * File &gt; Account
+  * File &gt; Info &gt; Protect Document/Workbook/Presentation &gt; Encrypt with Password
+  * File &gt; Info &gt; Protect Document &gt;Add a Digital Signature
+  * File &gt; Info &gt; Protect Document &gt; Mark as Final
 
 ### Opening a protected document from SharePoint Server {#opening-a-protected-document-from-sharepoint-server}
 
