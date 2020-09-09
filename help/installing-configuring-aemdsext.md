@@ -199,7 +199,7 @@ Before you begin, preconfigure the installer to point to your LiveCycle or AEM f
    <td><p>0</p> </td>
   </tr>
   <tr>
-   <td><p><code">AUTO_APPLY_POLICY_POLICY_I D</code></p> </td>
+   <td><p><code>AUTO_APPLY_POLICY_POLICY_I D</code></p> </td>
    <td><p>The policy GUID to use when new documents are saved. Applies to the auto-apply policy feature.</p> </td>
    <td><p>Hexadecimal policy ID as visible on the RM server</p> </td>
   </tr>
