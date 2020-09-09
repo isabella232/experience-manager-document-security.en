@@ -9,7 +9,7 @@ discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
 
 # AEM Document Security for Microsoft Office - Release Notes{#aem-document-security-for-microsoft-office-release-notes}
 
-## What's new in AEM Document Security for Microsoft Office <br> {#whats-new-in-aem-document-security-for-microsoft-office-br}
+## What's new in AEM Document Security for Microsoft Office {#whats-new-in-aem-document-security-for-microsoft-office}
 
 * **Support for Office 2019**: Document Security Extension for Microsoft Office has added support for Microsoft Office 2019. It is also expected to work with Microsoft Office 2019 desktop applications installed as part of Office 365.
 
@@ -17,7 +17,7 @@ discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
 >
 >The document uses terms Adobe Experience Manager Document Security for Microsoft Office, Adobe Experience Manager Document Security Extension for Microsoft Office, and Document Security Extension for Microsoft Office interchangeably.
 
-## Installing and Configuring AEM Document Security Extension for Microsoft Office <br> {#installing-and-configuring-aem-document-security-extension-for-microsoft-office-br}
+## Installing and Configuring AEM Document Security Extension for Microsoft Office {#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
 This version of Document Security Extension for Microsoft Office is compatible with Adobe LiveCycle Rights Management ES2 and later and Document Security add-on for AEM forms.
 
@@ -29,7 +29,7 @@ Review the information in this document before you install AEM Document Security
 
 ## Known issues {#known-issues}
 
-### Third-party plug-ins not supported&nbsp; {#third-party-plug-ins-not-supported-nbsp}
+### Third-party plug-ins not supported {#third-party-plug-ins-not-supported}
 
 AEM Document Security Extension for Microsoft Office does not work with third-party plug-ins. Uninstall any third-party plug-ins for Microsoft Office before you install Document Security Extension for Microsoft Office.
 
@@ -37,7 +37,7 @@ AEM Document Security Extension for Microsoft Office does not work with third-pa
 
 AEM Document Security Extension for Microsoft Office uses built-in protection features to protect documents, worksheets, and presentations. It disables a few Excel, Word, and PowerPoint menu options.
 
-### Restrictions for Microsoft Office 2013, 2016, and 2019 {#restrictions-for-microsoft-office-and}
+### Restrictions for Microsoft Office 2013, 2016, and 2019 {#restrictions-for-microsoft-office}
 
 In Microsoft Office, the following options are unavailable during a protected session:
 
@@ -80,7 +80,7 @@ When you apply a policy with dynamic watermark to Microsoft Excel 2013, Microsof
 
 It is recommended that you disable the Windows Data Execution Prevention (DEP) setting when using Document Security Extension for Microsoft Office applications.
 
-### Shared Microsoft Office files cannot be protected using Document Security Extension&nbsp; {#shared-microsoft-office-files-cannot-be-protected-using-document-security-extension-nbsp}
+### Shared Microsoft Office files cannot be protected using Document Security Extension {#shared-microsoft-office-files-cannot-be-protected-using-document-security-extension}
 
 When you protect any shared Microsoft Office file using Document Security Extension, an error occurs and the shared file is not secured.
 
@@ -96,19 +96,19 @@ Before you install the Document Security Extension for Microsoft Office on a mac
 
 The Synchronize Offline button is available even though the user does not have offline permissions for the document. However, selecting the button does nothing.
 
-### No support for trial versions of Microsoft Office <br> {#no-support-for-trial-versions-of-microsoft-office-br}
+### No support for trial versions of Microsoft Office {#no-support-for-trial-versions-of-microsoft-office}
 
 Document Security extension for Microsoft Office does not support trail versions of Microsoft Office. Before installing the extension, ensure that you have installed a licensed copy of Microsoft Office and it is activated.
 
-### Unable to open a protected Microsoft Office files &nbsp; {#unable-to-open-a-protected-microsoft-office-files-nbsp}
+### Unable to open a protected Microsoft Office files {#unable-to-open-a-protected-microsoft-office-files}
 
 If the protected view of the Microsoft Office is enabled, the Right Management Extension cannot open protected Microsoft Excel files (XLS, XLSX) and protected Microsoft PowerPoint (PPT) files from a remote location.
 
-### Cells of Microsoft Excel document containing an image or background color appear on top of watermark &nbsp; {#cells-of-microsoft-excel-document-containing-an-image-or-background-color-appear-on-top-of-watermark-nbsp}
+### Cells of Microsoft Excel document containing an image or background color appear on top of watermark {#cells-of-microsoft-excel-document-containing-an-image-or-background-color-appear-on-top-of-watermark}
 
 If a cell of a Microsoft Excel document contains an image or is filled with background color and a dynamic watermark policy is applied to the document, then the image or the background color filled in the cell appears on top of the watermark and cover the watermark.
 
-### Usability issue with multiple certificates <br> {#usability-issue-with-multiple-certificates-br}
+### Usability issue with multiple certificates {#usability-issue-with-multiple-certificates}
 
 If multiple certificates are present on the client machine and the user cancels the certificate selection dialog, then the dialog appears once again and the user has to cancel the dialog twice.
 
