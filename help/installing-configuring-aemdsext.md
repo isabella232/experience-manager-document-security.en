@@ -366,7 +366,7 @@ You can perform the following steps to package custom `CommonResources.dll`file 
 1. Create a batch file in the folder. For example, YOUR_FOLDER_NAME\Installer.bat
 1. Open the batch file for editing and add the following code to the batch file:
 
-  ``` shell
+   ``` shell
 
     @echo off
 
@@ -397,7 +397,7 @@ You can perform the following steps to package custom `CommonResources.dll`file 
 
     endlocal
 
-    ```
+   ```
 
    If you are using any other version of LiveCycle or AEM Forms on JEE apart from LiveCycle Rights Management ES4 and version as 11.0.0, replace the path of the registry key as following:
 
