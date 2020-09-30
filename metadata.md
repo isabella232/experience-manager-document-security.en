@@ -1,14 +1,14 @@
 ---
 cloud: experience-cloud
 solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-5.html
+solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/?tag=Tutorial#recommended/solutions/experience-manage
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-doc-security.en
-index: no
+git-repo: https://github.com/AdobeDocs/experience-manager-document-security.en
+index: yes
 ---
 
 # Metadata for internal use
