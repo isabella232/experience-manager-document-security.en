@@ -22,7 +22,7 @@ The LoadBehavior property in Windows Registry specifies the runtime behavior of 
 
 1. Take a backup of Windows Registry before you make changes to it. For detailed instructions, see [How to Modify the Windows Registry](https://support.microsoft.com/en-us/kb/136393).
 1. In the Registry Editor, navigate toHKEY_CURRENT_USER\Software\Microsoft\Office\Word\Addins\Adobe.DRMIntegration.WordAddin or HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Word\Addins\Adobe.DRM.
-1. Set value of the **LoadBehavior **property to 3.
+1. Set value of the **LoadBehavior** property to 3.
 
 1. Close the Registry Editor.
 
