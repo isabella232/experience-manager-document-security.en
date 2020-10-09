@@ -3,12 +3,12 @@ cloud: experience-cloud
 product: adobe experience manager
 solution: Experience Manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Document Security User Guide
+user-guide-title: Adobe Experience Manager Document Security Guide
 breadcrumb-title: Document Security Guide
 user-guide-description: The Document Security Extension for Microsoft® Office ensures that only the people you authorize can use Word, Excel, and PowerPoint files that contain your intellectual property.
 ---
 
-# Experience Manager Document Security User Guide {#using}
+# Adobe Experience Manager Document Security Guide {#using}
 
 + [Introduction to AEM Document Security Extension for Microsoft Office](document-security-extension-microsoft-office.md)
 + [AEM Document Security for Microsoft Office - Release Notes](document-security-extension-release-notes.md)
