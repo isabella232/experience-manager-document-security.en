@@ -1,9 +1,0 @@
-filename,title,description,feature,topic,role,level
-./metadata.md,,,,,,
-././help/TOC.md,,,Document Security,,Business Practitioner,
-./help/document-security-extension-microsoft-office.md,Introduction to AEM Document Security Extension for Microsoft Office,"Using document Security Extension for Microsoft Office, you can apply predefined confidentiality settings to your Microsoft Office files.",,,,
-./help/document-security-extension-release-notes.md,AEM Document Security for Microsoft Office - Release Notes,Read the release notes before you install AEM Document Security 6.2 Extension for Microsoft Office.,,,,
-./help/download-installer.md,Download Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft Office,Use Document Security Extension for Microsoft Office software to protecting critical files against unauthorized access,,,,
-./help/installing-configuring-aemdsext.md,Installing and Configuring AEM Document Security Extension for Microsoft Office,This document guides you through installing and configuring Adobe Experience Manager Document Security Extension 6.2 for Microsoft Office.,,,,
-./help/using-aem-document-security-extension.md,Using AEM Document Security Extension for Microsoft Office,"You can control how recipients use your policy-protected files, no matter how widely you distribute them. The document explains how to protect files and how to work with protected files.",,,,
-./help/troubleshooting-document-security-extension.md,Troubleshooting AEM Document Security Extension for Microsoft Office,"If you have problems installing, configuring, or using the AEM Document Security Extension for Microsoft Office, follow the instructions listed in this document.",,,,

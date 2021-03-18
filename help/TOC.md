@@ -2,6 +2,7 @@
 cloud: experience-cloud
 product: adobe experience manager
 solution: Experience Manager
+type: Documentation
 audience: end-user
 user-guide-title: Adobe Experience Manager Document Security Guide
 breadcrumb-title: Document Security Guide

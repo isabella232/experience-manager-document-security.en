@@ -1,11 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
-getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/?tag=Tutorial#recommended/solutions/experience-manage
+feature-set: Experience Manager Forms
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-document-security.en
 index: yes
