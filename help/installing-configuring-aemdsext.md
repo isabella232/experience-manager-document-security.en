@@ -5,9 +5,8 @@ uuid: 9d7eb6bb-4780-4d82-8657-7c6c6d523af0
 content-type: reference
 topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
-
+exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 ---
-
 # Installing and Configuring AEM Document Security Extension for Microsoft Office{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
 This document guides you through installing and configuring Adobe Experience Manager Document Security Extension for Microsoft Office.

@@ -4,8 +4,8 @@ description: Use Document Security Extension for Microsoft Office software to pr
 uuid: b4c7d1d1-7eae-4fd3-8282-132c80a976e8
 contentOwner: khsingh
 discoiquuid: b32c7bb8-0060-4c2a-90fc-446b6ba39159
+exl-id: 25d2f439-e6c9-4d0a-bbd1-91d0f00dc683
 ---
-
 # Download Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft Office {#download-adobe-experience-manager-document-security-livecycle-rights-management-extension-for-microsoft-office}
 
 Using Document Security Extension for Microsoft Office software, you can maintain the confidentiality of sensitive information by protecting critical files against unauthorized access at all times - from document creation through distribution, archiving, and destruction - regardless of how the files are distributed or where they are stored.
@@ -28,4 +28,3 @@ Using Document Security Extension for Microsoft Office software, you can maintai
 | Microsoft Office 32-bit | [Download EXE](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice.exe) | [Download MSI](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice.zip) |
 |---|---|---|
 | Microsoft Office 64-bit | [Download EXE](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice64.exe) | [Download MSI](http://download.macromedia.com/pub/livecycle/policyserver/DocumentSecurityExtensionforMicrosoftOffice64.zip) |
-

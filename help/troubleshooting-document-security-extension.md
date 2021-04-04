@@ -6,8 +6,8 @@ contentOwner: khsingh
 content-type: reference
 topic-tags: using
 discoiquuid: bdc3f174-e417-4d3e-b3af-972cdcc10133
+exl-id: 98f24032-0774-47f8-bcc5-1ee37b417833
 ---
-
 # Troubleshooting AEM Document Security Extension for Microsoft Office{#troubleshooting-aem-document-security-extension-for-microsoft-office}
 
 ## Troubleshooting Installation and Configuration issues {#troubleshootinginstallationandconfiguration}

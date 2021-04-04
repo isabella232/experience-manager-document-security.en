@@ -5,8 +5,8 @@ uuid: a5428c50-fae3-4823-9e6f-0f5306e7248f
 content-type: reference
 topic-tags: using
 discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
+exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
 ---
-
 # Introduction to AEM Document Security Extension for Microsoft Office{#introduction-to-aem-document-security-extension-for-microsoft-office}
 
 Adobe® Experience Manager Document Security Extension for Microsoft® Office ensures that only the people you authorize can use Word, Excel, and PowerPoint files that contain your intellectual property. By using Document Security Extension for Microsoft Office, you can apply predefined confidentiality settings to your files.
@@ -80,4 +80,3 @@ The resources in this table can help you learn more about AEM Document Security:
   </tr>
  </tbody>
 </table>
-

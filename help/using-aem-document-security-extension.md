@@ -5,8 +5,8 @@ uuid: db4abbc8-eb21-4f4a-9950-224ada95ce66
 content-type: reference
 topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
+exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
 ---
-
 # Using AEM Document Security Extension for Microsoft Office{#using-aem-document-security-extension-for-microsoft-office}
 
 ## Protect files using AEM Document Security Extension {#usingaemdocumentsecurityextensiontoprotectfiles}
