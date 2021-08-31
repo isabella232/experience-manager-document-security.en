@@ -771,8 +771,6 @@ You can use third-party authentication providers with AEM Forms Document Securit
 * Custom extended authentication workflow with third-party identity providers configured on AEM Forms on JEE server
 * Extended authentication using customized page for listing SAML Authentications
 
-For detailed steps to configure extended authentication workflows, see the [Extended Authentication Scenarios](http://blogs.adobe.com/livecycle/2011/12/extended-authentication-scenarios.html) article
-
 ## Glossary {#glossary}
 
 For information about LiveCycle and AEM forms on JEE terminology, see [Glossary](http://www.adobe.com/go/learn_aemforms_designer_65).

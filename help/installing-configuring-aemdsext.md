@@ -97,7 +97,13 @@ The following steps describe how to create and configure an MSI file. This MSI f
 
 ### Prerequisites for customizing the installer {#prerequisites-for-customizing-the-installer}
 
-Use the Orca database editor to customize the installer. The following steps describe how to create a custom MSI file by modifying a copy of the MSI installation file using the Orca database editor. Orca is available as part of Windows SDK for Windows Server 2008 and .NET Framework 3.5. For more information about how to edit Microsoft Windows® Installer files using Orca, see [Microsoft Support](http://support.microsoft.com/kb/255905/EN-US/).
+Use the Orca database editor to customize the installer. The following steps describe how to create a custom MSI file by modifying a copy of the MSI installation file using the Orca database editor. Orca is available as part of Windows SDK for Windows Server 2008 and .NET Framework 3.5. 
+
+<!--
+
+For more information about how to edit Microsoft Windows® Installer files using Orca, see [Microsoft Support](http://support.microsoft.com/kb/255905/EN-US/).
+
+-->
 
 >[!NOTE]
 >
@@ -105,7 +111,7 @@ Use the Orca database editor to customize the installer. The following steps des
 
 #### Install Orca {#install-orca}
 
-1. Download the Windows SDK for Windows Server 2008 and .NET Framework 3.5 from [Microsoft Download Center](http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=11310).
+1. Download the Windows SDK for Windows Server 2008 and .NET Framework 3.5.
 1. Double-click the Orca.msi file in the \Microsoft SDK\bin folder.
 
    You also need the MSI variant of the installer file. Contact Adobe support to receive the latest version of the MSI installer.
