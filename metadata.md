@@ -1,5 +1,8 @@
 ---
 cloud: Experience Cloud
+solution: Experience Manager, Experience Manager Forms
+product: adobe experience manager
+type: Documentation
 feature-set: Experience Manager Forms
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-document-security.en
